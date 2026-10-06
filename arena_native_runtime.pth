@@ -1,0 +1,1 @@
+import sys, pathlib, ctypes; _arena_md4c = pathlib.Path(sys.prefix).parent / '.native/lib/libmd4c.0.dylib'; _arena_md4c_handle = ctypes.CDLL(str(_arena_md4c), mode=ctypes.RTLD_GLOBAL) if sys.platform == 'darwin' and _arena_md4c.exists() else None

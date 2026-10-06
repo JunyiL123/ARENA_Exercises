@@ -1,0 +1,8 @@
+# Legacy TorchText binary requires the PyTorch 2.3 series.
+# Install in .venv-torchtext, separately from the modern course environment.
+torch==2.3.0
+torchvision==0.18.0
+torchaudio==2.3.0
+torchtext==0.18.0
+numpy==1.26.4
+ipykernel

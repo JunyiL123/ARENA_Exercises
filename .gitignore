@@ -1,5 +1,7 @@
 # Python Environment & Dependencies
 .venv
+.venv-torchtext/
+.native/
 .direnv
 
 # Python Cache & Build Artifacts
